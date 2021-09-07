@@ -19,6 +19,8 @@ export class MovieDetailComponent implements OnInit {
     this.movie = this.moviesService.getMovieById(id);
   }
 
+
+
   getProperties(): string[] {
     return Object.keys(this.movie);
   }
